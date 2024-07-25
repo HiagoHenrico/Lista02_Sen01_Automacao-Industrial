@@ -11,7 +11,7 @@ namespace Lista_02_logica
         static void Main(string[] args)
         {
 
-            /* Ex_01
+            // Ex_01
             int v1, v2;
             Console.WriteLine("Exercício 01 - Entre com dois números e informe o maior deles.");
             Console.WriteLine("Digite o primeiro valor: ");
@@ -26,9 +26,9 @@ namespace Lista_02_logica
             {
                 Console.WriteLine("O primeiro valor e maior que o segundo");
             }
-            */
+            
 
-            /* Ex_02
+           // Ex_02
             int Ex2_v1, Ex2_v2;
             Console.WriteLine("Exercício 02 - Entre com dois números e informe o maior deles. Se os números forem idênticos informe");
             Console.WriteLine("Digite o primeiro número: ");
@@ -298,13 +298,13 @@ namespace Lista_02_logica
                 Console.WriteLine($"{aluno} foi Aprovado.");
             }
 
-            */
+           
             //Ex_11
             Double p1_ex11, p2_ex11, MediaP_ex11, f;
-            String aluno;
+            String aluno_ex11;
             Console.WriteLine("Exercício 11 - Calcular a média entre provas P1 e P2. Informar a situação do aluno 'aprovado' e 'reprovado', sabendo que nota de aprovação e 5. E exibir quanto o aluno precisa tirar para ser aprovado.");
             Console.WriteLine("Digite nome do aluno");
-            aluno = Console.ReadLine();
+            aluno_ex11 = Console.ReadLine();
             Console.WriteLine("Informe nota da Prova 1...");
             p1_ex11 = double.Parse(Console.ReadLine());
             Console.WriteLine("Informe nota da Prova 2...");
@@ -316,15 +316,15 @@ namespace Lista_02_logica
 
             if (MediaP_ex11 < 5)
             {
-                Console.WriteLine($"{aluno} foi Reprovado. Faltaram {f} pontos para aprovação.");
+                Console.WriteLine($"{aluno_ex11} foi Reprovado. Faltaram {f} pontos para aprovação.");
             }
             else if (MediaP_ex11 == 5)
             {
-                Console.WriteLine($"{aluno} foi Aprovado.");
+                Console.WriteLine($"{aluno_ex11} foi Aprovado.");
             }
             else
             {
-                Console.WriteLine($"{aluno} foi Aprovado.");
+                Console.WriteLine($"{aluno_ex11} foi Aprovado.");
             } 
 
 
